@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3f459dc5d2ac34b1141c9f6d1a2cb31b",
+    "content-hash": "408be1e18be851965aadcd548628e219",
     "packages": [
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -1410,6 +1410,68 @@
                 "source": "https://github.com/filamentphp/filament"
             },
             "time": "2026-05-27T16:16:29+00:00"
+        },
+        {
+            "name": "firefly/filament-blog",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thefireflytech/filament-blog.git",
+                "reference": "e68668ee3d01e5517cf966c89cf80fc65c08b744"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thefireflytech/filament-blog/zipball/e68668ee3d01e5517cf966c89cf80fc65c08b744",
+                "reference": "e68668ee3d01e5517cf966c89cf80fc65c08b744",
+                "shasum": ""
+            },
+            "require": {
+                "filament/support": "^4.0 || ^5.0",
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^10",
+                "pestphp/pest": "^3.8",
+                "pestphp/pest-plugin-laravel": "^3.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Firefly\\FilamentBlog\\FilamentBlogServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Firefly\\FilamentBlog\\": "src/",
+                    "Firefly\\FilamentBlog\\Database\\Factories\\": "database/factories/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Asmit Nepali",
+                    "email": "asmit@thefireflytech.com",
+                    "homepage": "https://github.com/asmit-firefly",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An advance blog package for Filament Admin Panel",
+            "keywords": [
+                "blog",
+                "filament",
+                "firefly",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/thefireflytech/filament-blog/issues",
+                "source": "https://github.com/thefireflytech/filament-blog/tree/4.0.0"
+            },
+            "time": "2026-06-01T04:01:08+00:00"
         },
         {
             "name": "fruitcake/php-cors",
